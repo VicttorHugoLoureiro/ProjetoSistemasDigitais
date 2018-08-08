@@ -1,0 +1,19 @@
+|subtrator_completo
+a => a.IN1
+b => b.IN1
+T => saida_2.IN0
+T => saida_3.IN0
+T => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Tout <= Tout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtrator_completo|meio_subtrator:MS1
+a => s.IN0
+a => t.IN0
+b => s.IN1
+b => t.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+t <= t.DB_MAX_OUTPUT_PORT_TYPE
+
+

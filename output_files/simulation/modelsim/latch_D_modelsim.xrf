@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/latch_RS.v
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/db/latch_D.cbx.xml
+design_name = latch_RS
+instance = comp, \Q~output , Q~output, latch_RS, 1
+instance = comp, \Enable~input , Enable~input, latch_RS, 1
+instance = comp, \R~input , R~input, latch_RS, 1
+instance = comp, \S~input , S~input, latch_RS, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, latch_RS, 1

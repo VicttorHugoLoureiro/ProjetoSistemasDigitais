@@ -1,0 +1,13 @@
+module somador_completo(a, b, cin, cout,s);
+
+	input a,b, cin;
+	output cout, s;
+	
+	wire sm,cm, ct;
+	
+	meio_somador MS1(a, b,sm, cm), MS2(sm , cin, s, ct);
+	
+	assign cout = ct | cm;
+	
+	
+endmodule 

@@ -1,0 +1,34 @@
+|flipflop_D
+d => d.IN1
+clock => clock.IN1
+Q <= Latch_D_RS:latch_D2.port2
+
+
+|flipflop_D|Latch_D_RS:latch_D1
+d => d.IN1
+enable => enable.IN1
+Q <= latch_RS:LRS.port3
+
+
+|flipflop_D|Latch_D_RS:latch_D1|latch_RS:LRS
+R => r_g.IN0
+S => s_g.IN0
+Enable => r_g.IN1
+Enable => s_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|flipflop_D|Latch_D_RS:latch_D2
+d => d.IN1
+enable => enable.IN1
+Q <= latch_RS:LRS.port3
+
+
+|flipflop_D|Latch_D_RS:latch_D2|latch_RS:LRS
+R => r_g.IN0
+S => s_g.IN0
+Enable => r_g.IN1
+Enable => s_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

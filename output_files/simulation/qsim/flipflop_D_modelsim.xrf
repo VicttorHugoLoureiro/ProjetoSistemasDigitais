@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/latch_RS.v
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/Latch_D_RS.v
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/flipflop_D.v
+source_file = 1, simulacao_FF_D.vwf
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/Waveform.vwf
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/simulation/modelsim/Waveform.vwf
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/Waveform1.vwf
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/Waveform2.vwf
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/db/flipflop_D.cbx.xml
+design_name = flipflop_D
+instance = comp, \Q~output , Q~output, flipflop_D, 1
+instance = comp, \clock~input , clock~input, flipflop_D, 1
+instance = comp, \d~input , d~input, flipflop_D, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, flipflop_D, 1

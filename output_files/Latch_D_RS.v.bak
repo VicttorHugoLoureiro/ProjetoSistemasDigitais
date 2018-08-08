@@ -1,0 +1,10 @@
+module Latch_D_RS(d,enable,Q);
+	
+	input d,enable;
+	output Q;
+
+	
+		
+	
+
+endmodule 

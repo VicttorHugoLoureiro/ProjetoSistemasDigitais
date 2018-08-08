@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/meio_somador.v
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/somador_completo.v
+source_file = 1, /home/victtor/intelFPGA_lite/17.1/output_files/db/somador_completo.cbx.xml
+design_name = somador_completo
+instance = comp, \cout~output , cout~output, somador_completo, 1
+instance = comp, \s1~output , s1~output, somador_completo, 1
+instance = comp, \a1~input , a1~input, somador_completo, 1
+instance = comp, \cin~input , cin~input, somador_completo, 1
+instance = comp, \b1~input , b1~input, somador_completo, 1
+instance = comp, \cout~0 , cout~0, somador_completo, 1
+instance = comp, \MS2|c , MS2|c, somador_completo, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, somador_completo, 1

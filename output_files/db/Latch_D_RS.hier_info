@@ -1,0 +1,14 @@
+|Latch_D_RS
+d => d.IN1
+enable => enable.IN1
+Q <= latch_RS:LRS.port3
+
+
+|Latch_D_RS|latch_RS:LRS
+R => r_g.IN0
+S => s_g.IN0
+Enable => r_g.IN1
+Enable => s_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
